@@ -1,6 +1,0 @@
-Time resolution is 1 ps
-Add: A = 2147483648, B = 2147483648, Result =          0, N = 0, Z = 1, V = 1, C = 1
-Sub: A =          5, B =          3, Result =          2, N = 0, Z = 0, V = 0, C = 0
-And: A =          5, B =          3, Result =          1, N = 0, Z = 0, V = 0, C = 0
-Or: A =          5, B =          3, Result =          7, N = 0, Z = 0, V = 0, C = 0
-$finish called at time : 40 ns : File "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv" Line 70

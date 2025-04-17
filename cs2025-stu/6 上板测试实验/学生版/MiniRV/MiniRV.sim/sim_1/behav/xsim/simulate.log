@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+Warning : input CLKIN1 period and attribute CLKIN1_PERIOD on PLLE2_ADV instance tb_miniRV_mem.tb_cpu.pll_inst.inst.plle2_adv_inst are not same.
+WARNING in tb_miniRV_mem.tb_cpu.Mem_DRAM.inst at time             11290000 ns: 
+Reading from out-of-range address. Max address in tb_miniRV_mem.tb_cpu.Mem_DRAM.inst is       16383
+WARNING in tb_miniRV_mem.tb_cpu.Mem_DRAM.inst at time             11610000 ns: 
+Reading from out-of-range address. Max address in tb_miniRV_mem.tb_cpu.Mem_DRAM.inst is       16383
+WARNING in tb_miniRV_mem.tb_cpu.Mem_IROM.inst at time             11690000 ns: 
+Reading from out-of-range address. Max address in tb_miniRV_mem.tb_cpu.Mem_IROM.inst is       16383

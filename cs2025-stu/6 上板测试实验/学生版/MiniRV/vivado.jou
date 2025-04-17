@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat May 25 10:13:04 2024
+# Process ID: 11604
+# Current directory: C:/Users/Administrator/Desktop/fpga/digital_circuit/MiniRV
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5580 C:\Users\Administrator\Desktop\fpga\digital_circuit\MiniRV\MiniRV.xpr
+# Log file: C:/Users/Administrator/Desktop/fpga/digital_circuit/MiniRV/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/fpga/digital_circuit/MiniRV\vivado.jou
+# Running On: CHINAMI-BNFJJKG, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 8, Host memory: 17083 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Administrator/Desktop/fpga/digital_circuit/MiniRV/MiniRV.xpr
+update_compile_order -fileset sources_1
+close_project
+create_project miniRV_logic C:/Users/Administrator/Desktop/fpga/computer_organization/miniRV_logic -part xc7k325tffg900-2
+file mkdir C:/Users/Administrator/Desktop/fpga/computer_organization/miniRV_logic/miniRV_logic.srcs/sources_1/new
+close [ open C:/Users/Administrator/Desktop/fpga/computer_organization/miniRV_logic/miniRV_logic.srcs/sources_1/new/miniRV_SOC.sv w ]
+add_files C:/Users/Administrator/Desktop/fpga/computer_organization/miniRV_logic/miniRV_logic.srcs/sources_1/new/miniRV_SOC.sv
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/Administrator/Desktop/fpga/computer_organization/miniRV_logic/miniRV_logic.srcs/sources_1/new/miniRV_SOC.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/Administrator/Desktop/fpga/computer_organization/miniRV_logic/miniRV_logic.srcs/sources_1/new/miniRV_SOC.sv
+close [ open C:/Users/Administrator/Desktop/fpga/computer_organization/miniRV_logic/miniRV_logic.srcs/sources_1/new/miniRV_Soc.sv w ]
+add_files C:/Users/Administrator/Desktop/fpga/computer_organization/miniRV_logic/miniRV_logic.srcs/sources_1/new/miniRV_Soc.sv
+close [ open C:/Users/Administrator/Desktop/fpga/computer_organization/miniRV_logic/miniRV_logic.srcs/sources_1/new/myCPU.sv w ]
+add_files C:/Users/Administrator/Desktop/fpga/computer_organization/miniRV_logic/miniRV_logic.srcs/sources_1/new/myCPU.sv
+update_compile_order -fileset sources_1

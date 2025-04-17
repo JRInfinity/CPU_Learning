@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Fatal: Result Error: {a, b} is {00000000, 00000000} and {Result} is  {xxxxxxxxxxxxxxxx}, but expected {00000000}.
+Time: 1 ns  Iteration: 0  Process: /tb_multipler/Initial30_0  Scope: tb_multipler  File: /home/ketted/Desktop/cs2022_2/alu/rv32icpu.srcs/sim_1/new/tb_multipler.sv Line: 37
+$finish called at time : 1 ns

@@ -1,0 +1,11 @@
+0.7
+2020.2
+Oct 14 2022
+05:07:14
+/home/ketted/Desktop/cs2022_2/alu/rv32icpu.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+/home/ketted/Desktop/cs2022_2/alu/rv32icpu.srcs/sim_1/new/tb_alu.sv,1709623784,systemVerilog,,/home/ketted/Desktop/cs2022_2/alu/rv32icpu.srcs/sim_1/new/tb_multipler.sv,,tb_alu,,uvm,,,,,,
+/home/ketted/Desktop/cs2022_2/alu/rv32icpu.srcs/sim_1/new/tb_multipler.sv,1739936711,systemVerilog,,,,tb_multipler,,uvm,,,,,,
+/home/ketted/Desktop/cs2022_2/alu/rv32icpu.srcs/sources_1/new/adder.sv,1739935845,systemVerilog,,/home/ketted/Desktop/cs2022_2/alu/rv32icpu.srcs/sim_1/new/tb_alu.sv,,adder,,uvm,,,,,,
+/home/ketted/Desktop/cs2022_2/alu/rv32icpu.srcs/sources_1/new/alu.sv,1740039303,systemVerilog,,/home/ketted/Desktop/cs2022_2/alu/rv32icpu.srcs/sources_1/new/top_alu.sv,,alu,,uvm,,,,,,
+/home/ketted/Desktop/cs2022_2/alu/rv32icpu.srcs/sources_1/new/multipler32.sv,1740039356,systemVerilog,,/home/ketted/Desktop/cs2022_2/alu/rv32icpu.srcs/sources_1/new/adder.sv,,multipler32,,uvm,,,,,,
+/home/ketted/Desktop/cs2022_2/alu/rv32icpu.srcs/sources_1/new/top_alu.sv,1709692772,systemVerilog,,/home/ketted/Desktop/cs2022_2/alu/rv32icpu.srcs/sources_1/new/multipler32.sv,,top_alu,,uvm,,,,,,

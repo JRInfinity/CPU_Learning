@@ -1,0 +1,24 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_single_cpu_behav xil_defaultlib.tb_single_cpu xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/rv32icpu/rv32icpu.srcs/sim_1/new/tb_single_cpu.sv:53]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/rv32icpu/rv32icpu.srcs/sim_1/new/tb_single_cpu.sv:56]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/rv32icpu/rv32icpu.srcs/sim_1/new/tb_single_cpu.sv:59]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/rv32icpu/rv32icpu.srcs/sim_1/new/tb_single_cpu.sv:62]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/rv32icpu/rv32icpu.srcs/sim_1/new/tb_single_cpu.sv:65]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/rv32icpu/rv32icpu.srcs/sim_1/new/tb_single_cpu.sv:68]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/rv32icpu/rv32icpu.srcs/sim_1/new/tb_single_cpu.sv:71]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/rv32icpu/rv32icpu.srcs/sim_1/new/tb_single_cpu.sv:72]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/rv32icpu/rv32icpu.srcs/sim_1/new/tb_single_cpu.sv:73]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/rv32icpu/rv32icpu.srcs/sim_1/new/tb_single_cpu.sv:74]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/rv32icpu/rv32icpu.srcs/sim_1/new/tb_single_cpu.sv:77]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/rv32icpu/rv32icpu.srcs/sim_1/new/tb_single_cpu.sv:78]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/rv32icpu/rv32icpu.srcs/sim_1/new/tb_single_cpu.sv:79]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/rv32icpu/rv32icpu.srcs/sim_1/new/tb_single_cpu.sv:80]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/rv32icpu/rv32icpu.srcs/sim_1/new/tb_single_cpu.sv:83]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/rv32icpu/rv32icpu.srcs/sim_1/new/tb_single_cpu.sv:86]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
