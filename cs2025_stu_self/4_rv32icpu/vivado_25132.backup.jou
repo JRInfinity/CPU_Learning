@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Apr 15 15:17:37 2025
+# Process ID: 25132
+# Current directory: D:/JingYeDaICCompetition/cs2025_stu_self/4_rv32icpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19816 D:\JingYeDaICCompetition\cs2025_stu_self\4_rv32icpu\rv32icpu.xpr
+# Log file: D:/JingYeDaICCompetition/cs2025_stu_self/4_rv32icpu/vivado.log
+# Journal file: D:/JingYeDaICCompetition/cs2025_stu_self/4_rv32icpu\vivado.jou
+# Running On: DESKTOP-082C81I, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16893 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/JingYeDaICCompetition/cs2025_stu_self/4_rv32icpu/rv32icpu.xpr

@@ -1,0 +1,30 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_reg_file_behav xil_defaultlib.tb_reg_file xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/2 数据通路实验/学生版/datapath/rv32icpu.srcs/sim_1/new/tb_reg_file.sv:64]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/2 数据通路实验/学生版/datapath/rv32icpu.srcs/sim_1/new/tb_reg_file.sv:65]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/2 数据通路实验/学生版/datapath/rv32icpu.srcs/sim_1/new/tb_reg_file.sv:79]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/2 数据通路实验/学生版/datapath/rv32icpu.srcs/sim_1/new/tb_reg_file.sv:80]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/2 数据通路实验/学生版/datapath/rv32icpu.srcs/sim_1/new/tb_reg_file.sv:105]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/2 数据通路实验/学生版/datapath/rv32icpu.srcs/sim_1/new/tb_reg_file.sv:106]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/2 数据通路实验/学生版/datapath/rv32icpu.srcs/sim_1/new/tb_reg_file.sv:110]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/ketted/Desktop/cs2022_2/2 数据通路实验/学生版/datapath/rv32icpu.srcs/sim_1/new/tb_reg_file.sv:111]
+Completed static elaboration
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 64, File /home/ketted/Desktop/cs2022_2/2 数据通路实验/学生版/datapath/rv32icpu.srcs/sim_1/new/tb_reg_file.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 65, File /home/ketted/Desktop/cs2022_2/2 数据通路实验/学生版/datapath/rv32icpu.srcs/sim_1/new/tb_reg_file.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 79, File /home/ketted/Desktop/cs2022_2/2 数据通路实验/学生版/datapath/rv32icpu.srcs/sim_1/new/tb_reg_file.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 80, File /home/ketted/Desktop/cs2022_2/2 数据通路实验/学生版/datapath/rv32icpu.srcs/sim_1/new/tb_reg_file.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 105, File /home/ketted/Desktop/cs2022_2/2 数据通路实验/学生版/datapath/rv32icpu.srcs/sim_1/new/tb_reg_file.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 106, File /home/ketted/Desktop/cs2022_2/2 数据通路实验/学生版/datapath/rv32icpu.srcs/sim_1/new/tb_reg_file.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 110, File /home/ketted/Desktop/cs2022_2/2 数据通路实验/学生版/datapath/rv32icpu.srcs/sim_1/new/tb_reg_file.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 111, File /home/ketted/Desktop/cs2022_2/2 数据通路实验/学生版/datapath/rv32icpu.srcs/sim_1/new/tb_reg_file.sv
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.reg_file
+Compiling module xil_defaultlib.tb_reg_file
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_reg_file_behav

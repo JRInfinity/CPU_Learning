@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Apr  1 19:53:47 2025
+# Process ID: 6596
+# Current directory: D:/JingYeDaICCompetition/cs2025-stu/1 运算器实验/学生版/alu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14916 D:\JingYeDaICCompetition\cs2025-stu\1 运算器实验\学生版\alu\rv32icpu.xpr
+# Log file: D:/JingYeDaICCompetition/cs2025-stu/1 运算器实验/学生版/alu/vivado.log
+# Journal file: D:/JingYeDaICCompetition/cs2025-stu/1 运算器实验/学生版/alu\vivado.jou
+#-----------------------------------------------------------
+start_gui

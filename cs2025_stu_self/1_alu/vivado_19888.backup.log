@@ -1,0 +1,1295 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Apr  2 10:09:18 2025
+# Process ID: 19888
+# Current directory: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16876 D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.xpr
+# Log file: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/vivado.log
+# Journal file: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu\vivado.jou
+# Running On: DESKTOP-082C81I, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16893 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'D:/JingYeDaICCompetition/cs2025-stu/1 运算器实验/学生版/alu' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Runs 36-271] Incremental checkpoint part, xc7k325tffg900-2, does not match run part, xc7k70tfbv676-1.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ProgramFiles/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:07 . Memory (MB): peak = 1503.398 ; gain = 365.457
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+set_property part xc7k325tffg900-2 [current_project]
+open_hw_manager
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.3.8:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+
+
+******** Xilinx cs_server v2023.2.0
+  ****** Build date   : Oct 10 2023-12:01:56
+    **** Build number : 2023.2.1696910516
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1595.551 ; gain = 0.000
+connect_hw_server -url 192.168.3.8:3121 -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.3.8:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+
+
+******** Xilinx cs_server v2023.2.0
+  ****** Build date   : Oct 10 2023-12:01:56
+    **** Build number : 2023.2.1696910516
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1628.281 ; gain = 32.730
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/C305BAD5ABCD]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/C305BAD5ABCD]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.3.8:3121/xilinx_tcf/Digilent/C305BAD5ABCD
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-695] HW Server shut down, disconnecting from server: 192.168.3.8:3121
+set_property top tb_alu [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+set_property is_enabled false [get_files  D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_multipler.sv]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+set_property is_enabled true [get_files  D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_multipler.sv]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_alu'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/ProgramFiles/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_alu' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+"xvlog --incr --relax -L uvm -prj tb_alu_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/top_alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/multipler32.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multipler32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_multipler.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_multipler
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_alu'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/ProgramFiles/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_alu' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_alu_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_alu_behav xil_defaultlib.tb_alu xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/ProgramFiles/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_alu_behav xil_defaultlib.tb_alu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:48]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:50]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:52]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:54]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:56]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:58]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:60]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:62]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:64]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:65]
+Completed static elaboration
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 48, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 50, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 52, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 54, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 56, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 58, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 60, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 62, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 64, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 65, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.alu(DATAWIDTH=8)
+Compiling module xil_defaultlib.tb_alu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_alu_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1698.871 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_alu_behav -key {Behavioral:sim_1:Functional:tb_alu} -tclbatch {tb_alu.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_alu.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_alu_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1703.262 ; gain = 4.391
+close_sim
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_alu'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/ProgramFiles/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_alu' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_alu_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/top_alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/multipler32.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multipler32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_multipler.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_multipler
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_alu_behav xil_defaultlib.tb_alu xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/ProgramFiles/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_alu_behav xil_defaultlib.tb_alu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:48]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:50]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:52]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:54]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:56]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:58]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:60]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:62]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:64]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:65]
+Completed static elaboration
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 48, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 50, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 52, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 54, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 56, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 58, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 60, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 62, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 64, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 65, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.alu(DATAWIDTH=8)
+Compiling module xil_defaultlib.tb_alu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_alu_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_alu_behav -key {Behavioral:sim_1:Functional:tb_alu} -tclbatch {tb_alu.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_alu.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_alu_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1707.887 ; gain = 0.000
+run 100 us
+Fatal: C flag Error: {A, B, ALUControl} is {00, 00, 1} and {C} is  {0}, but expected {1}.
+Time: 65537 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 58
+$finish called at time : 65537 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_alu'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/ProgramFiles/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_alu' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_alu_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_alu_behav xil_defaultlib.tb_alu xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/ProgramFiles/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_alu_behav xil_defaultlib.tb_alu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:48]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:50]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:52]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:54]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:56]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:58]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:60]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:62]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:64]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:65]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_alu_behav -key {Behavioral:sim_1:Functional:tb_alu} -tclbatch {tb_alu.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_alu.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_alu_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_alu'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/ProgramFiles/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_alu' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_alu_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/top_alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/multipler32.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multipler32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_multipler.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_multipler
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_alu_behav xil_defaultlib.tb_alu xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/ProgramFiles/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_alu_behav xil_defaultlib.tb_alu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:48]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:50]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:52]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:54]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:56]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:58]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:60]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:62]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:64]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:65]
+Completed static elaboration
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 48, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 50, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 52, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 54, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 56, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 58, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 60, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 62, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 64, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 65, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.alu(DATAWIDTH=8)
+Compiling module xil_defaultlib.tb_alu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_alu_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_alu_behav -key {Behavioral:sim_1:Functional:tb_alu} -tclbatch {tb_alu.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_alu.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_alu_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1707.887 ; gain = 0.000
+run all
+Fatal: C flag Error: {A, B, ALUControl} is {00, 00, 1} and {C} is  {0}, but expected {1}.
+Time: 65537 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 58
+$finish called at time : 65537 ns
+run all
+Fatal: V flag Error: {A, B, ALUControl} is {00, 01, 1} and {V} is  {1}, but expected {0}.
+Time: 65538 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 56
+$finish called at time : 65538 ns
+run all
+Fatal: C flag Error: {A, B, ALUControl} is {00, 01, 1} and {C} is  {1}, but expected {0}.
+Time: 65538 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 58
+$finish called at time : 65538 ns
+run all
+Fatal: V flag Error: {A, B, ALUControl} is {00, 02, 1} and {V} is  {1}, but expected {0}.
+Time: 65539 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 56
+$finish called at time : 65539 ns
+run all
+Fatal: C flag Error: {A, B, ALUControl} is {00, 02, 1} and {C} is  {1}, but expected {0}.
+Time: 65539 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 58
+$finish called at time : 65539 ns
+run all
+Fatal: V flag Error: {A, B, ALUControl} is {00, 03, 1} and {V} is  {1}, but expected {0}.
+Time: 65540 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 56
+$finish called at time : 65540 ns
+run all
+Fatal: C flag Error: {A, B, ALUControl} is {00, 03, 1} and {C} is  {1}, but expected {0}.
+Time: 65540 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 58
+$finish called at time : 65540 ns
+run all
+Fatal: V flag Error: {A, B, ALUControl} is {00, 04, 1} and {V} is  {1}, but expected {0}.
+Time: 65541 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 56
+$finish called at time : 65541 ns
+run 100 us
+Fatal: C flag Error: {A, B, ALUControl} is {00, 04, 1} and {C} is  {1}, but expected {0}.
+Time: 65541 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 58
+$finish called at time : 65541 ns
+run all
+Fatal: V flag Error: {A, B, ALUControl} is {00, 05, 1} and {V} is  {1}, but expected {0}.
+Time: 65542 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 56
+$finish called at time : 65542 ns
+run all
+Fatal: C flag Error: {A, B, ALUControl} is {00, 05, 1} and {C} is  {1}, but expected {0}.
+Time: 65542 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 58
+$finish called at time : 65542 ns
+run all
+Fatal: V flag Error: {A, B, ALUControl} is {00, 06, 1} and {V} is  {1}, but expected {0}.
+Time: 65543 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 56
+$finish called at time : 65543 ns
+run all
+Fatal: C flag Error: {A, B, ALUControl} is {00, 06, 1} and {C} is  {1}, but expected {0}.
+Time: 65543 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 58
+$finish called at time : 65543 ns
+run all
+Fatal: V flag Error: {A, B, ALUControl} is {00, 07, 1} and {V} is  {1}, but expected {0}.
+Time: 65544 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 56
+$finish called at time : 65544 ns
+run all
+Fatal: C flag Error: {A, B, ALUControl} is {00, 07, 1} and {C} is  {1}, but expected {0}.
+Time: 65544 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 58
+$finish called at time : 65544 ns
+run all
+Fatal: V flag Error: {A, B, ALUControl} is {00, 08, 1} and {V} is  {1}, but expected {0}.
+Time: 65545 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 56
+$finish called at time : 65545 ns
+run all
+Fatal: C flag Error: {A, B, ALUControl} is {00, 08, 1} and {C} is  {1}, but expected {0}.
+Time: 65545 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 58
+$finish called at time : 65545 ns
+run all
+Fatal: V flag Error: {A, B, ALUControl} is {00, 09, 1} and {V} is  {1}, but expected {0}.
+Time: 65546 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 56
+$finish called at time : 65546 ns
+run all
+Fatal: C flag Error: {A, B, ALUControl} is {00, 09, 1} and {C} is  {1}, but expected {0}.
+Time: 65546 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 58
+$finish called at time : 65546 ns
+run all
+Fatal: V flag Error: {A, B, ALUControl} is {00, 0a, 1} and {V} is  {1}, but expected {0}.
+Time: 65547 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 56
+$finish called at time : 65547 ns
+run all
+Fatal: C flag Error: {A, B, ALUControl} is {00, 0a, 1} and {C} is  {1}, but expected {0}.
+Time: 65547 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 58
+$finish called at time : 65547 ns
+run all
+Fatal: V flag Error: {A, B, ALUControl} is {00, 0b, 1} and {V} is  {1}, but expected {0}.
+Time: 65548 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 56
+$finish called at time : 65548 ns
+run all
+Fatal: C flag Error: {A, B, ALUControl} is {00, 0b, 1} and {C} is  {1}, but expected {0}.
+Time: 65548 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 58
+$finish called at time : 65548 ns
+run all
+Fatal: V flag Error: {A, B, ALUControl} is {00, 0c, 1} and {V} is  {1}, but expected {0}.
+Time: 65549 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 56
+$finish called at time : 65549 ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_alu'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/ProgramFiles/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_alu' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_alu_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/top_alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/multipler32.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multipler32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_multipler.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_multipler
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_alu_behav xil_defaultlib.tb_alu xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/ProgramFiles/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_alu_behav xil_defaultlib.tb_alu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:48]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:50]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:52]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:54]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:56]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:58]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:60]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:62]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:64]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:65]
+Completed static elaboration
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 48, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 50, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 52, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 54, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 56, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 58, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 60, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 62, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 64, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 65, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.alu(DATAWIDTH=8)
+Compiling module xil_defaultlib.tb_alu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_alu_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_alu_behav -key {Behavioral:sim_1:Functional:tb_alu} -tclbatch {tb_alu.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_alu.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_alu_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1716.949 ; gain = 0.000
+run all
+Fatal: C flag Error: {A, B, ALUControl} is {00, 00, 1} and {C} is  {0}, but expected {1}.
+Time: 4097 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 58
+$finish called at time : 4097 ns
+run 100 us
+Fatal: V flag Error: {A, B, ALUControl} is {00, 01, 1} and {V} is  {1}, but expected {0}.
+Time: 4098 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 56
+$finish called at time : 4098 ns
+run 100 us
+Fatal: C flag Error: {A, B, ALUControl} is {00, 01, 1} and {C} is  {1}, but expected {0}.
+Time: 4098 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 58
+$finish called at time : 4098 ns
+run all
+Fatal: V flag Error: {A, B, ALUControl} is {00, 02, 1} and {V} is  {1}, but expected {0}.
+Time: 4099 ns  Iteration: 0  Process: /tb_alu/Initial39_0  Scope: tb_alu  File: D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv Line: 56
+$finish called at time : 4099 ns
+close_sim
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_alu'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/ProgramFiles/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_alu' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+"xvlog --incr --relax -L uvm -prj tb_alu_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/top_alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/multipler32.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multipler32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_multipler.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_multipler
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property is_enabled false [get_files  D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sources_1/new/top_alu.sv]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property top alu [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_alu'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/ProgramFiles/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_alu' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_alu_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_alu_behav xil_defaultlib.tb_alu xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/ProgramFiles/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_alu_behav xil_defaultlib.tb_alu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:48]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:50]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:52]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:54]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:56]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:58]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:60]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:62]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:64]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv:65]
+Completed static elaboration
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 48, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 50, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 52, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 54, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 56, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 58, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 60, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 62, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 64, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 65, File D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.srcs/sim_1/new/tb_alu.sv
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.alu(DATAWIDTH=8)
+Compiling module xil_defaultlib.tb_alu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_alu_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_alu_behav -key {Behavioral:sim_1:Functional:tb_alu} -tclbatch {tb_alu.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_alu.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_alu_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1719.605 ; gain = 2.559
+set_property top test_alu [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_multipler.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\adder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sim_1\new\tb_alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\multipler32.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\JingYeDaICCompetition\cs2025_stu_self\1_alu\rv32icpu.srcs\sources_1\new\top_alu.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_alu'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: 另一个程序正在使用此文件，进程无法访问。: "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_alu'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: 另一个程序正在使用此文件，进程无法访问。: "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_alu'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: 另一个程序正在使用此文件，进程无法访问。: "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_alu'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: 另一个程序正在使用此文件，进程无法访问。: "D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_alu'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/ProgramFiles/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_alu' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj test_alu_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_alu_behav xil_defaultlib.test_alu xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/ProgramFiles/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_alu_behav xil_defaultlib.test_alu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.test_alu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_alu_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_alu_behav -key {Behavioral:sim_1:Functional:test_alu} -tclbatch {test_alu.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_alu.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Add: A =          5, B =          3, Result =          8, N = 0, Z = 0, V = 0, C = 0
+Sub: A =          5, B =          3, Result =          2, N = 0, Z = 0, V = 0, C = 0
+And: A =          5, B =          3, Result =          1, N = 0, Z = 0, V = 0, C = 0
+Or: A =          5, B =          3, Result =          7, N = 0, Z = 0, V = 0, C = 0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_alu_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1720.539 ; gain = 0.934
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_alu'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/ProgramFiles/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_alu' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj test_alu_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_alu_behav xil_defaultlib.test_alu xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/ProgramFiles/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_alu_behav xil_defaultlib.test_alu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/JingYeDaICCompetition/cs2025_stu_self/1_alu/rv32icpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_alu_behav -key {Behavioral:sim_1:Functional:test_alu} -tclbatch {test_alu.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_alu.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Add: A =          5, B =          3, Result =          8, N = 0, Z = 0, V = 0, C = 0
+Sub: A =          5, B =          3, Result =          2, N = 0, Z = 0, V = 0, C = 0
+And: A =          5, B =          3, Result =          1, N = 0, Z = 0, V = 0, C = 0
+Or: A =          5, B =          3, Result =          7, N = 0, Z = 0, V = 0, C = 0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_alu_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1722.801 ; gain = 0.762
+run 100 us
+run 100 us
+run all
+run all
+run 100 us
+run 1000 us
+run 1000 us
+run 1000 us
+run all

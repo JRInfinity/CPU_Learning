@@ -1,0 +1,34 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_miniRV_mem_behav xil_defaultlib.tb_miniRV_mem xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUFDS
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=17,CLKIN...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.PLL_clk_wiz
+Compiling module xil_defaultlib.PLL
+Compiling module xil_defaultlib.NPC
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.RF
+Compiling module xil_defaultlib.IMMGEN
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ACTL
+Compiling module xil_defaultlib.MUX4_1
+Compiling module xil_defaultlib.myCPU
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="k...
+Compiling module xil_defaultlib.IROM
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="k...
+Compiling module xil_defaultlib.DRAM
+Compiling module xil_defaultlib.Bridge
+Compiling module xil_defaultlib.miniRV_SoC
+Compiling module xil_defaultlib.tb_miniRV_mem
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_miniRV_mem_behav

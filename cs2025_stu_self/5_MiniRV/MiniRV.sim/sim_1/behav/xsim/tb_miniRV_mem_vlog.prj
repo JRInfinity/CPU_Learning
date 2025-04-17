@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../MiniRV.srcs/sources_1/new" --include "../../../../MiniRV.gen/sources_1/ip/PLL" \
+"../../../../MiniRV.gen/sources_1/ip/DRAM/sim/DRAM.v" \
+"../../../../MiniRV.gen/sources_1/ip/IROM/sim/IROM.v" \
+"../../../../MiniRV.gen/sources_1/ip/PLL/PLL_clk_wiz.v" \
+"../../../../MiniRV.gen/sources_1/ip/PLL/PLL.v" \
+
+sv xil_defaultlib  --include "../../../../MiniRV.srcs/sources_1/new" --include "../../../../MiniRV.gen/sources_1/ip/PLL" \
+"../../../../MiniRV.srcs/sources_1/new/ACTL.sv" \
+"../../../../MiniRV.srcs/sources_1/new/ALU.sv" \
+"../../../../MiniRV.srcs/sources_1/new/Bridge.sv" \
+"../../../../MiniRV.srcs/sources_1/new/Control.sv" \
+"../../../../MiniRV.srcs/sources_1/new/IMMGEN.sv" \
+"../../../../MiniRV.srcs/sources_1/new/MUX2_1.sv" \
+"../../../../MiniRV.srcs/sources_1/new/MUX4_1.sv" \
+"../../../../MiniRV.srcs/sources_1/new/MiniRVCPU.sv" \
+"../../../../MiniRV.srcs/sources_1/new/NPC.sv" \
+"../../../../MiniRV.srcs/sources_1/new/PC.sv" \
+"../../../../MiniRV.srcs/sources_1/new/RF.sv" \
+"../../../../MiniRV.srcs/sources_1/new/myCPU.sv" \
+"../../../../MiniRV.srcs/sim_1/new/tb_miniRV_mem.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

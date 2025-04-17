@@ -1,0 +1,24 @@
+ssrcscan starts=srcscan exits with return value 0
+les for SV std libs ===========
+INFO: The Verilog library search path for library "std" is now "D:/ProgramFiles/Vivado/2023.2/data/precomp_hsv/sv/std" (VERI-1509)
+INFO: The Verilog library search path for library "uvm" is now "D:/ProgramFiles/Vivado/2023.2/data/precomp_hsv/sv/uvm" (VERI-1509)
+INFO: analyzing module ALU_controller (VERI-9002)
+INFO: analyzing module adder (VERI-9002)
+INFO: analyzing module alu (VERI-9002)
+INFO: analyzing module control (VERI-9002)
+INFO: analyzing module data_ram (VERI-9002)
+INFO: analyzing module imm_gen (VERI-9002)
+INFO: analyzing module instr_rom (VERI-9002)
+INFO: analyzing module mux (VERI-9002)
+INFO: analyzing module pc (VERI-9002)
+INFO: analyzing module reg_file (VERI-9002)
+INFO: analyzing module single_cpu (VERI-9002)
+INFO: analyzing module instr_split (VERI-9002)
+INFO: analyzing module clk_div (VERI-9002)
+INFO: analyzing module tb_reg_file (VERI-9002)
+INFO: analyzing module tb_instr_rom (VERI-9002)
+INFO: analyzing module tb_imm_gen (VERI-9002)
+INFO: analyzing module tb_alu (VERI-9002)
+INFO: analyzing module tb_data_ram (VERI-9002)
+INFO: analyzing module tb_single_cpu (VERI-9002)
+srcscan exits with return value 0
