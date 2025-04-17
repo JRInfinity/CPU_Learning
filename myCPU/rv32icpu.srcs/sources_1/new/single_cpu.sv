@@ -99,7 +99,7 @@ module single_cpu#(
     pc #(
         .DATAWIDTH  (DATAWIDTH)
     ) pc_inst(
-        .clk        (clk_div),
+        .clk        (clk_div[0]),
         .rst        (rst),
         .npc        (npc),
         .pc_out     (pc_output)
@@ -121,7 +121,7 @@ module single_cpu#(
         .ADDR_WIDTH (5),
         .DATAWIDTH  (DATAWIDTH)
     )reg_file_inst (
-        .clk             (clk_div),
+        .clk             (clk_div[2]),
         .rst             (rst),
         .wr_reg_en       (RegWrite),
         .wr_reg_addr     (instr_part3),
@@ -173,7 +173,7 @@ module single_cpu#(
         .RAMWIDTH    (8)         ,
         .RAMDEPTH    (8)  
     )data_ram_inst(
-        .clk      (clk_div),
+        .clk      (clk_div[1]),
         .rst      (rst),
         .ena      (1'b1),
         .wen      (MemWrite),
