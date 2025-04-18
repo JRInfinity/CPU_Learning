@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 2024/03/06 20:32:28
+// Create Date: 2025/04/18 15:02:53
 // Design Name: 
-// Module Name: mux
+// Module Name: mux4to1
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,20 +20,24 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module mux #(
+module mux4to1 #(
     parameter WIDTH = 32
 )
 (
     input  logic [WIDTH - 1:0] A          ,
     input  logic [WIDTH - 1:0] B          ,
-    input  logic Control    ,
+    input  logic [WIDTH - 1:0] C          ,
+    input  logic [WIDTH - 1:0] D          ,
+    input  logic [1:0]         Control    ,
     output logic [WIDTH - 1:0] Result
 );
     
     always_comb begin
         case (Control) 
-            1'b0: Result = A;
-            1'b1: Result = B;
+            2'b00: Result = A;
+            2'b01: Result = B;
+            2'b10: Result = C;
+            2'b11: Result = D;
             default: Result = A;
         endcase
     end
