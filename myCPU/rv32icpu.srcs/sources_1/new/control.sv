@@ -23,7 +23,7 @@
 module control(
     // 经过instr_split模块得到的指令的有关控制的码
     input  logic [6:0]  opcode           , // 指令中操作码部分
-    input  logic [3:0]  funct            , // funct{funct7[6], funct3}
+    input  logic [3:0]  funct            , // funct == {funct7[6], funct3}
 
     // 控前信号 input 控中信号 write 控后信号 output
 
@@ -35,7 +35,7 @@ module control(
     output logic        ctrl_DRAM_write  , // 控中信号，控制是否写DM 0：不写 1：写
 
     // Reg相关
-    output logic [1:0]  ctrl_Reg_input   , // 控前信号，控制写入寄存器的值的来源 00：ALU 01：DM 10：NPC的pc_add4端口
+    output logic [1:0]  ctrl_Reg_input   , // 控前信号，控制写入寄存器的值的来源 00：ALU 01：DM 10：NPC的pc_add4端口 11：instr_split的立即数
     output logic        ctrl_Reg_write   , // 控中信号，控制是否写寄存器堆RF 0：不写 1：写
     
     // NPC相关
@@ -107,16 +107,12 @@ module control(
 
             7'b110_0011: begin // B-type
                 ctrl_ALU_input = 1'b1; // 控前信号，控制进入ALU的B端口的数来自哪里 0：imm 1：Reg
+                ctrl_ALU_output = 4'b0001; // 控后信号，控制ALU的计算结果Result是由哪种运算得到的（4'b0001减法）
                 ctrl_DRAM_write = 1'b0; // 控中信号，控制是否写DM 0：不写 1：写
                 ctrl_Reg_input = 2'b01; // 控前信号，控制写入寄存器的值的来源 00：ALU 01：DM 10：NPC的pc_add4端口
                 ctrl_Reg_write = 1'b1; // 控中信号，控制是否写寄存器堆RF 0：不写 1：写
                 ctrl_NPC_output = 3'b000; // 控后信号，控制NPC的输出应该是什么
-                case (funct[2:0])
-                    3'b000: ctrl_ALU_output =  4'b1000; // beq
-                    3'b001: ctrl_ALU_output =  4'b1001; // bne
-                    3'b110: ctrl_ALU_output =  4'b1010; // blt
-                    3'b101: ctrl_ALU_output =  4'b1011; // bge
-                endcase
+                
             end
 
             7'b110_1111: begin // J-type jal

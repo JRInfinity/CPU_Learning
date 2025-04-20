@@ -25,31 +25,72 @@ module alu#(
 )(
     input  logic [DATAWIDTH - 1:0]  A           ,
     input  logic [DATAWIDTH - 1:0]  B           ,
-    input  logic [1:0]              ALUControl  ,
+    input  logic [3:0]              ctrl_ALU_ouput  ,
     output logic [DATAWIDTH - 1:0]  Result      ,
     output logic                    N           ,
     output logic                    Z           ,
     output logic                    V           ,
     output logic                    C           
 );
+    logic [DATAWIDTH - 1:0] res1;
+    logic [DATAWIDTH - 1:0] res2;
+    logic [DATAWIDTH - 1:0] res3;
+
+
+    // 为实现移位功能，实例化移位器
+    barrel_shifter_left left_shifter(
+    .data_in(A),
+    .shift_amount(B), // 向左移位位数
+    .data_out(res1)
+    );
+
+    barrel_shifter_right right_logic_shifter(
+    .data_in(A),
+    .shift_amount(B), // 向右逻辑移位位数
+    .shift_mode(1'b0), // 逻辑移位模式
+    .data_out(res2)
+    );
+
+    barrel_shifter_right right_algorithm_shifter(
+    .data_in(A),
+    .shift_amount(B), // 向右算数移位位数
+    .shift_mode(1'b1), // 算数移位模式
+    .data_out(res3)
+    );
 
     always_comb begin : alu // 计算结果Result和进位标志位C
-        case (ALUControl)
-            2'b00: begin // 计算加法
+        case (ctrl_ALU_ouput)
+            4'b0001: begin // 计算加法
                 {C, Result} = A + B;
             end
-            2'b01: begin // 计算减法
+            4'b0001: begin // 计算减法
                 {C, Result} = A - B;
             end
-            2'b10: begin // 计算按位与
+            4'b0010: begin // 计算按位与
                 Result = A & B;
                 C = 0;
             end
-            2'b11: begin // 计算按位或
+            4'b0011: begin // 计算按位或
                 Result = A | B;
                 C = 0;
             end
-            default: begin
+            4'b0100: begin // 计算按位异或
+                Result = A ^ B;
+                C = 0;
+            end
+            4'b0101: begin // 左移
+                Result = res1;
+                C = 0; // 此时不考虑进位
+            end
+            4'b0110: begin // 逻辑右移
+                Result = res2;
+                C = 0; // 此时不考虑进位
+            end
+            4'b0111: begin // 算数右移
+                Result = res3;
+                C = 0; // 此时不考虑进位
+            end
+            default: begin //
                 Result = {DATAWIDTH{1'b0}};
                 C = 0;
             end
@@ -60,9 +101,9 @@ module alu#(
         N = Result[DATAWIDTH - 1];
         Z = (Result == 0);
         
-        if (ALUControl == 2'b00) begin
+        if (ctrl_ALU_ouput == 2'b00) begin
             V = (A[DATAWIDTH - 1] == B[DATAWIDTH - 1]) && (A[DATAWIDTH - 1] != Result[DATAWIDTH - 1]);
-        end else if (ALUControl == 2'b01) begin
+        end else if (ctrl_ALU_ouput == 2'b01) begin
             V = (A[DATAWIDTH - 1] != B[DATAWIDTH - 1]) && (A[DATAWIDTH - 1] != Result[DATAWIDTH - 1]);
         end else begin
             V = 0;
