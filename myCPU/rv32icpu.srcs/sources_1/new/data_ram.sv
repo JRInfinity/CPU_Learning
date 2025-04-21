@@ -21,9 +21,7 @@
 
 
 module data_ram #(
-    parameter   DATAWIDTH   =   32  ,
-    parameter   RAMWIDTH    =   8   ,
-    parameter   RAMDEPTH    =   8  
+    parameter   DATAWIDTH   =   32
 )(
     input  logic                   clk      ,
     input  logic                   rst      ,
@@ -31,41 +29,38 @@ module data_ram #(
     input  logic                   wen      ,
     input  logic [DATAWIDTH - 1:0] din      ,
     input  logic [DATAWIDTH - 1:0] daddr    ,
-    output logic [DATAWIDTH - 1:0] dout     ,
-
-    output logic [31:0] look_ram 
+    output logic [DATAWIDTH - 1:0] dout     
 );
-    // 先用reg进行最简单的模拟，这段代码不会将reg综合为bram
-    reg [RAMWIDTH - 1:0] ram [2**(RAMDEPTH) - 1:0];  // 每一个存储单元的长度是8位（一个字节）
+    logic [DATAWIDTH - 1:0] daddr_prep;
+    logic [DATAWIDTH - 1:0] din_prep;
+    logic [DATAWIDTH - 1:0] dout_prep;
+
+    DRAM DRAM_inst (
+        .a(daddr_prep[13:0]),      // input wire [13 : 0] a
+        .d(din_prep),      // input wire [31 : 0] d
+        .clk(clk),  // input wire clk
+        .we(wen),    // input wire we
+        .spo(dout_prep)  // output wire [31 : 0] spo
+    );
 
     // ena == 1, wen == 1 写
     // ena == 1, wen == 0 读
 
     // 写DM
     always_ff @ (posedge clk) begin
-        if (rst) begin
-            for (int i = 0; i < 2**(RAMDEPTH); i++) begin
-                ram[i] <= {RAMWIDTH{1'b0}};
-            end
-        end else if (ena && wen) begin // 采用高地址存高位的原则
-            ram[daddr] <= din[7:0];
-            ram[daddr + 1] <= din[15:8];
-            ram[daddr + 2] <= din[23:16];
-            ram[daddr + 3] <= din[31:24];
+       if (ena && wen) begin // 采用高地址存高位的原则
+            daddr_prep = daddr;
+            din_prep = din;
         end
     end
 
     // 读DM
     always_comb begin
         if (ena) begin
-            dout = {ram[daddr + 3], ram[daddr + 2], ram[daddr + 1], ram[daddr]};
+            dout = dout_prep;
         end else begin
             dout = {DATAWIDTH{1'b0}};
         end
-    end
-    
-    always_comb begin
-        look_ram = {ram[35], ram[34], ram[33], ram[32]};
     end
 
 

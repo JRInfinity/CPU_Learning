@@ -27,25 +27,23 @@ module instr_rom #(
 )(
     input  logic                   ena      ,
     input  logic [DATAWIDTH - 1:0] daddr    ,
-    output logic [DATAWIDTH - 1:0] dout     ,
-
-    output logic [31:0] look_rom     
+    output logic [DATAWIDTH - 1:0] dout   
 );
-    // 先用reg进行最简单的模拟，这段代码不会将reg综合为bram
-    reg [RAMWIDTH - 1:0] rom [2**(RAMDEPTH) - 1:0];
+
+    logic [DATAWIDTH - 1:0] dout_prep;
+
+    IROM IROM_inst (
+        .a(daddr[13:0]),      // input wire [13 : 0] a
+        .spo(dout_prep)  // output wire [31 : 0] spo
+    );
 
     always_comb begin
         if (ena) begin
-            dout = {rom[daddr + 3], rom[daddr + 2], rom[daddr + 1], rom[daddr]};// 采用高地址存高位的原则
+            dout = dout_prep;
         end else begin
             dout = {DATAWIDTH{1'b0}};
         end
     end
 
-    always_comb begin
-        look_rom = {rom[3], rom[2], rom[1], rom[0]};
-    end
-
-    
 
 endmodule

@@ -3,16 +3,16 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Tue Apr 15 15:17:37 2025
-# Process ID: 25132
-# Current directory: D:/JingYeDaICCompetition/cs2025_stu_self/4_rv32icpu
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19816 D:\JingYeDaICCompetition\cs2025_stu_self\4_rv32icpu\rv32icpu.xpr
-# Log file: D:/JingYeDaICCompetition/cs2025_stu_self/4_rv32icpu/vivado.log
-# Journal file: D:/JingYeDaICCompetition/cs2025_stu_self/4_rv32icpu\vivado.jou
+# Start of session at: Fri Apr 18 14:45:35 2025
+# Process ID: 26004
+# Current directory: C:/Users/huawei/Documents/GitHub/CPU_Learning/myCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5196 C:\Users\huawei\Documents\GitHub\CPU_Learning\myCPU\rv32icpu.xpr
+# Log file: C:/Users/huawei/Documents/GitHub/CPU_Learning/myCPU/vivado.log
+# Journal file: C:/Users/huawei/Documents/GitHub/CPU_Learning/myCPU\vivado.jou
 # Running On: DESKTOP-082C81I, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16893 MB
 #-----------------------------------------------------------
 start_gui
-open_project D:/JingYeDaICCompetition/cs2025_stu_self/4_rv32icpu/rv32icpu.xpr
+open_project C:/Users/huawei/Documents/GitHub/CPU_Learning/myCPU/rv32icpu.xpr
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/ProgramFiles/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
@@ -48,6 +48,12 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ProgramFiles/Vivado/2023.2/data/ip'.
-open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:11 . Memory (MB): peak = 1507.457 ; gain = 412.508
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:11 . Memory (MB): peak = 1534.906 ; gain = 422.633
+close [ open C:/Users/huawei/Documents/GitHub/CPU_Learning/myCPU/rv32icpu.srcs/sources_1/new/NPC.sv w ]
+add_files C:/Users/huawei/Documents/GitHub/CPU_Learning/myCPU/rv32icpu.srcs/sources_1/new/NPC.sv
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+close [ open C:/Users/huawei/Documents/GitHub/CPU_Learning/myCPU/rv32icpu.srcs/sources_1/new/mux4to1.sv w ]
+add_files C:/Users/huawei/Documents/GitHub/CPU_Learning/myCPU/rv32icpu.srcs/sources_1/new/mux4to1.sv
 exit
-INFO: [Common 17-206] Exiting Vivado at Tue Apr 15 15:42:32 2025...
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 18 16:27:51 2025...

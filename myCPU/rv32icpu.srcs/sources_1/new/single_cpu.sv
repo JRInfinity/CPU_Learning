@@ -25,52 +25,44 @@ module single_cpu#(
 )(
     input  logic                    clk    ,
     input  logic                    rst    ,
-    output logic [DATAWIDTH - 1:0]  pc_out ,
-    output logic [31:0] look_ram,
-    output logic [31:0] look_rom    
+    output logic [DATAWIDTH - 1:0]  pc_out    
 );
 // TODO: 提供了一些器件的例化，有可能有缺失，同学们需要自行补全完整
 
     logic [DATAWIDTH - 1:0] pc_output;
     logic [DATAWIDTH - 1:0] npc;
-    logic [DATAWIDTH - 1:0] npc1;
-    logic [DATAWIDTH - 1:0] npc2;
+    logic [DATAWIDTH - 1:0] pc_add4;
     logic [DATAWIDTH - 1:0] full_instr;
     logic [DATAWIDTH - 1:0] reg_out_data1;
     logic [DATAWIDTH - 1:0] reg_out_data2;
     logic [DATAWIDTH - 1:0] write_reg_data;
-    logic [DATAWIDTH - 1:0] Result_ALU;
+    logic [DATAWIDTH - 1:0] result_ALU;
     logic [DATAWIDTH - 1:0] data_DM_out;
     logic [DATAWIDTH - 1:0] input2_ALU;
     logic [DATAWIDTH - 1:0] imm;
 
-    logic [6:0] opcode;
-    logic [4:0] instr_part1;
-    logic [4:0] instr_part2;
-    logic [4:0] instr_part3;
-    logic [3:0] instr_part4;
+    logic [6:0] instr_part1_opcode;
+    logic [4:0] instr_part2_rs1;
+    logic [4:0] instr_part3_rs2;
+    logic [4:0] instr_part4_rd;
+    logic [3:0] instr_part5_funct;
+    logic [31:0] instr_part6_imm;
 
-    logic Branch;     
-    logic MemToReg;   
-    logic MemWrite;  
-    logic [1:0] ALUOP;      
-    logic ALUSrc;    
-    logic RegWrite;
+    logic ctrl_ALU_input;
+    logic [3:0] ctrl_ALU_output;
+    logic ctrl_DRAM_write;
+    logic [1:0]  ctrl_Reg_input;
+    logic        ctrl_Reg_write;
+    logic [2:0]  ctrl_NPC_output;
 
     logic flag_ALU_N;
     logic flag_ALU_Z;
     logic flag_ALU_V;
     logic flag_ALU_C;
 
-    // ALU的选择控制端
-    logic [1:0] ALUControl;
-    // 确定npc的来源的选择信号
-    logic PcSrc;
-
     logic [2:0] clk_div;
 
     always_comb begin
-        PcSrc = Branch & flag_ALU_Z;
         pc_out = pc_output;
     end
 
@@ -80,21 +72,6 @@ module single_cpu#(
     .clk_div(clk_div)
     );
 
-    adder #(
-        .DATAWIDTH  (DATAWIDTH)
-    ) adder_fix_inst(
-        .A          (pc_output),
-        .B          (32'b100),
-        .Result     (npc1)
-    );
-
-    adder #(
-        .DATAWIDTH  (DATAWIDTH)
-    ) adder_offset_inst(
-        .A          (pc_output),
-        .B          (imm),
-        .Result     (npc2)
-    );
 
     pc #(
         .DATAWIDTH  (DATAWIDTH)
@@ -105,6 +82,19 @@ module single_cpu#(
         .pc_out     (pc_output)
     );
 
+    NPC #(
+        .DATAWIDTH  (DATAWIDTH)
+    ) NPC_inst(
+        .pc        (pc_output),
+        .imm       (instr_part6_imm),
+        .result_ALU (result_ALU),
+        .ctrl_NPC (ctrl_NPC_output),
+        .ctrl_from_ALU ({flag_ALU_N, flag_ALU_Z}),
+        .npc       (npc),
+        .pc_add4   (pc_add4)
+    );
+
+
     instr_rom #(
     .DATAWIDTH   (DATAWIDTH)  ,
     .RAMWIDTH    (8)          ,
@@ -112,9 +102,7 @@ module single_cpu#(
     ) instr_rom_inst (
         .ena      (1'b1),
         .daddr    (pc_output),
-        .dout     (full_instr),
-
-        .look_rom (look_rom)
+        .dout     (full_instr)
     );
 
     reg_file #(
@@ -123,36 +111,24 @@ module single_cpu#(
     )reg_file_inst (
         .clk             (clk_div[2]),
         .rst             (rst),
-        .wr_reg_en       (RegWrite),
-        .wr_reg_addr     (instr_part3),
+        .wr_reg_en       (ctrl_Reg_write),
+        .wr_reg_addr     (instr_part4_rd),
         .wr_wdata        (write_reg_data),
-        .rs_reg1_addr    (instr_part1),
-        .rs_reg2_addr    (instr_part2),
+        .rs_reg1_addr    (instr_part2_rs1),
+        .rs_reg2_addr    (instr_part3_rs2),
         .rs_reg1_rdata   (reg_out_data1),
         .rs_reg2_rdata   (reg_out_data2)
     );
 
-    imm_gen #(
-        .DATAWIDTH  (32)	
-    )imm_gen_inst (
-        .instr   (full_instr),
-        .imm     (imm)  
-    );
-
     control control_inst (
         .opcode      (opcode),
-        .Branch      (Branch),
-        .MemToReg    (MemToReg),
-        .MemWrite    (MemWrite),
-        .ALUOP       (ALUOP),
-        .ALUSrc      (ALUSrc),
-        .RegWrite    (RegWrite)
-    );
-
-    ALU_controller ALU_controller_inst(
-        .funct        (instr_part4),
-        .ALUOP        (ALUOP),
-        .ALUControl   (ALUControl) 
+        .funct      (Branch),
+        .ctrl_ALU_input    (ctrl_ALU_input),
+        .ctrl_ALU_output    (ctrl_ALU_output),
+        .ctrl_DRAM_write       (ctrl_DRAM_write),
+        .ctrl_Reg_input      (ctrl_Reg_input),
+        .ctrl_Reg_write    (ctrl_Reg_write),
+        .ctrl_NPC_output   (ctrl_NPC_output)
     );
 
     alu# (
@@ -160,8 +136,8 @@ module single_cpu#(
     ) alu_inst (
         .A           (reg_out_data1),
         .B           (input2_ALU),
-        .ALUControl  (ALUControl),
-        .Result      (Result_ALU),
+        .ctrl_ALU_ouput  (ctrl_ALU_ouput),
+        .Result      (result_ALU),
         .N           (flag_ALU_N),
         .Z           (flag_ALU_Z),
         .V           (flag_ALU_V),
@@ -169,55 +145,47 @@ module single_cpu#(
     );
 
     data_ram #(
-        .DATAWIDTH   (DATAWIDTH)  ,
-        .RAMWIDTH    (8)         ,
-        .RAMDEPTH    (8)  
+        .DATAWIDTH   (DATAWIDTH)
     )data_ram_inst(
         .clk      (clk_div[1]),
         .rst      (rst),
         .ena      (1'b1),
-        .wen      (MemWrite),
+        .wen      (ctrl_DRAM_write),
         .din      (reg_out_data2),
-        .daddr    (Result_ALU),
-        .dout     (data_DM_out),
-
-        .look_ram (look_ram)
+        .daddr    (result_ALU),
+        .dout     (data_DM_out)
+        
     );
 
-    mux #(
-        .WIDTH      (DATAWIDTH)
-    ) mux_npc_inst(
-        .A          (npc1),
-        .B          (npc2),
-        .Control    (PcSrc),
-        .Result     (npc)
-    );
-
-    mux #(
+    mux2to1 #(
         .WIDTH      (DATAWIDTH)
     ) mux_if_imm_inst(
         .A          (reg_out_data2),
         .B          (imm),
-        .Control    (ALUSrc),
+        .Control    (ctrl_ALU_input),
         .Result     (input2_ALU)
     );
 
-    mux #(
+    mux4to1 #(
         .WIDTH      (DATAWIDTH)
     ) mux_RFtype_inst(
-        .A          (Result_ALU),
+        .A          (result_ALU),
         .B          (data_DM_out),
-        .Control    (MemToReg),
+        .C          (pc_add4),
+        .D          (instr_part6_imm),
+        .Control    (ctrl_Reg_input),
         .Result     (write_reg_data)
     );
 
     instr_split instr_split_inst(
         .instr          (full_instr),
         .opcode         (opcode),
-        .instr_part1    (instr_part1),
-        .instr_part2    (instr_part2),
-        .instr_part3    (instr_part3),
-        .instr_part4    (instr_part4)
+        .instr_part1_opcode    (instr_part1_opcode),
+        .instr_part2_rs1    (instr_part2_rs1),
+        .instr_part3_rs2    (instr_part3_rs2),
+        .instr_part4_rd    (instr_part4_rd),
+        .instr_part5_funct    (instr_part5_funct),
+        .instr_part6_imm    (instr_part6_imm)
     );
 
 endmodule
